@@ -17,7 +17,7 @@ function CTASection() {
       <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="relative z-10 w-full max-w-3xl flex flex-col items-center">
         
         <div className="flex justify-center mb-8">
-          <img src="/blinky mascot logo.png" alt="Blinky" className="w-32 h-32 object-contain drop-shadow-2xl" />
+          <img src="/blinky_mascot_logo.png" alt="Blinky" className="w-32 h-32 object-contain drop-shadow-2xl" />
         </div>
         
         <h2 className="text-5xl md:text-7xl font-medium mb-16 leading-tight tracking-tight">

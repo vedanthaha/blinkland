@@ -121,7 +121,7 @@ export function HeroInteractive() {
             <div className="absolute inset-0 bg-[#FF5A1F] blur-[80px] opacity-20 rounded-full pointer-events-none"></div>
             <motion.img 
               animate={getMascotAnimation()}
-              src="/blinky mascot logo.png" 
+              src="/blinky_mascot_logo.png" 
               alt="Blinky Mascot" 
               className="w-[180px] md:w-[220px] object-contain drop-shadow-2xl relative z-10"
             />

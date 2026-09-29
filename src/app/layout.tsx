@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     siteName: "Blinky",
     images: [
       {
-        url: "/logo + text.png",
+        url: "/logo_text.png",
         width: 1200,
         height: 630,
         alt: "Blinky Logo",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Blinky — Your Computer Companion",
     description: "Blinky is an AI desktop tutor, autonomous computer-use agent, and workstation companion.",
-    images: ["/logo + text.png"],
+    images: ["/logo_text.png"],
   },
   robots: {
     index: true,

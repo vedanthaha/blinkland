@@ -90,7 +90,7 @@ export function ListenInteractive() {
               animate={getMascotAnimation()}
               className="relative w-24 h-24 mb-12 z-10"
             >
-              <img src="/blinky mascot logo.png" alt="Blinky Mascot" className="w-full h-full object-contain drop-shadow-xl" />
+              <img src="/blinky_mascot_logo.png" alt="Blinky Mascot" className="w-full h-full object-contain drop-shadow-xl" />
             </motion.div>
 
             {/* Waveform */}

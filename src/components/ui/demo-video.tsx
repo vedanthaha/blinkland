@@ -65,7 +65,7 @@ export function DemoVideo({
         {/* Command Pill Overlay */}
         {commandText && (
           <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 bg-black/90 backdrop-blur-xl border border-white/15 rounded-full px-5 py-3 flex items-center gap-3 shadow-[0_10px_40px_rgba(0,0,0,0.5)] transform translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-            <img src="/blinky mascot logo.png" className="w-5 h-5 object-contain" alt="Blinky" />
+            <img src="/blinky_mascot_logo.png" className="w-5 h-5 object-contain" alt="Blinky" />
             <span className="text-white text-sm font-medium">{commandText}</span>
             <div className="w-6 h-6 rounded-full bg-[#FF5A1F]/20 flex items-center justify-center ml-2">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>

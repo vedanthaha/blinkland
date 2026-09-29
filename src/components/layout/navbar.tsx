@@ -16,7 +16,7 @@ export function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 md:px-12 backdrop-blur-xl bg-black/40 border-b border-white/5">
       <div className="flex items-center">
         <Link href="/">
-          <img src="/logo + text.png" alt="Blinky" className="h-10 w-auto object-contain cursor-pointer" />
+          <img src="/logo_text.png" alt="Blinky" className="h-10 w-auto object-contain cursor-pointer" />
         </Link>
       </div>
       

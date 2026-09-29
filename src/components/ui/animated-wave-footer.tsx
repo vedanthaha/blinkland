@@ -53,7 +53,7 @@ export default function AnimatedWaveFooter() {
       <div className="max-w-[1400px] relative z-10 mx-auto px-6 md:px-12">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 mb-16">
           <div>
-            <img src="/logo + text.png" alt="Blinky" className="h-12 w-auto mb-6 object-contain" />
+            <img src="/logo_text.png" alt="Blinky" className="h-12 w-auto mb-6 object-contain" />
             <p className="text-white/60 text-sm mb-6 max-w-xs leading-relaxed">
               Blinky sees what you see, understands what you ask, and takes care of the computer work.
             </p>

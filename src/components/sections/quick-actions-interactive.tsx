@@ -106,7 +106,7 @@ export function QuickActionsInteractive() {
             <div className="h-16 border-b border-white/10 flex items-center justify-between px-6 z-10 bg-[#111]/50 rounded-t-[2rem] backdrop-blur-md">
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 rounded-full bg-[#1A1A1A] border border-white/10 flex items-center justify-center p-1.5 shadow-inner">
-                  <img src="/blinky mascot logo.png" alt="Blinky" className="w-full h-full object-contain" />
+                  <img src="/blinky_mascot_logo.png" alt="Blinky" className="w-full h-full object-contain" />
                 </div>
                 <span className="font-semibold text-sm tracking-wide text-white">QUICK ACTIONS</span>
               </div>
