@@ -82,7 +82,7 @@ export function HeroInteractive() {
   };
 
   return (
-    <section className="relative pt-40 pb-20 px-6 md:px-12 w-full min-h-[95vh] flex flex-col items-center justify-center bg-black bg-[url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAIElEQVR42mIUEhJiwAbevXuHVZyJgUQwqmEUDB0AEGAADd8DEPTX6ksAAAAASUVORK5CYII=')] bg-[size:10px]">
+    <section className="relative overflow-hidden pt-40 pb-20 px-6 md:px-12 w-full min-h-[95vh] flex flex-col items-center justify-center bg-black bg-[url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAIElEQVR42mIUEhJiwAbevXuHVZyJgUQwqmEUDB0AEGAADd8DEPTX6ksAAAAASUVORK5CYII=')] bg-[size:10px]">
       <BackgroundPixelStars />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-[#FF5A1F]/15 rounded-full blur-[120px] pointer-events-none mix-blend-screen z-0"></div>
 

@@ -84,7 +84,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body className={`${okineSans.variable} ${astonpoliz.variable} min-h-screen bg-[#000000] text-white overflow-x-hidden font-sans selection:bg-[#FF5A1F] selection:text-white flex flex-col`}>
         <Navbar />
         <main className="flex-1">
