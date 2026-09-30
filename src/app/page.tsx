@@ -35,16 +35,16 @@ function CTASection() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full">
-          <button className="w-full sm:w-auto bg-white text-black px-10 py-5 rounded-full font-semibold text-lg hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(255,255,255,0.2)] transition-all flex items-center justify-center gap-2">
+          <Link href="https://github.com/KingSahil/Blinky/releases" target="_blank" rel="noreferrer" className="w-full sm:w-auto bg-white text-black px-10 py-5 rounded-full font-semibold text-lg hover:-translate-y-1 hover:shadow-[0_10px_30px_rgba(255,255,255,0.2)] transition-all flex items-center justify-center gap-2">
             Download for Windows
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-          </button>
-          <button className="w-full sm:w-auto px-10 py-5 rounded-full font-medium text-lg text-white/80 hover:text-white transition-all flex items-center justify-center gap-2 border border-white/10 hover:bg-white/5">
+          </Link>
+          <Link href="https://github.com/KingSahil/Blinky/" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-10 py-5 rounded-full font-medium text-lg text-white/80 hover:text-white transition-all flex items-center justify-center gap-2 border border-white/10 hover:bg-white/5">
             View on GitHub
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
-          </button>
+          </Link>
         </div>
-
+      
       </motion.div>
     </section>
   );
