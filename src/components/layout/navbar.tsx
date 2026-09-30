@@ -40,8 +40,10 @@ export function Navbar() {
 
       <div>
         <button className="bg-white text-black px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-neutral-200 transition-colors flex items-center gap-2">
+          <Link href="https://github.com/KingSahil/Blinky/releases">    
           Download
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </Link>
         </button>
       </div>
     </header>
