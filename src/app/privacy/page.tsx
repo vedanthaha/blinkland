@@ -28,7 +28,7 @@ export default function PrivacyPage() {
               </section>
               <section>
                 <h2 className="text-2xl font-medium mb-2">Security</h2>
-                <p className="text-white/60">Blinky's network connections are encrypted end-to-end. The companion mobile app connects to your desktop using secure, authenticated WebRTC channels.</p>
+                <p className="text-white/60">Blinky&apos;s network connections are encrypted end-to-end. The companion mobile app connects to your desktop using secure, authenticated WebRTC channels.</p>
               </section>
             </div>
           </div>

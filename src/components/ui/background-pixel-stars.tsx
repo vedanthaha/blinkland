@@ -373,4 +373,6 @@ export const BackgroundPixelStars = memo(
   () => true,
 );
 
+BackgroundPixelStars.displayName = 'BackgroundPixelStars';
+
 export default BackgroundPixelStars;

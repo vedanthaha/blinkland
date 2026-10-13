@@ -47,13 +47,13 @@ export function SeeInteractive() {
 
             <div className="flex flex-wrap gap-3">
               <button onClick={() => handleInteract('export')} className="px-5 py-2.5 rounded-full bg-[#111] border border-white/10 text-white/80 hover:bg-white/10 hover:text-white transition-colors text-sm font-medium">
-                "Where is Export?"
+                &quot;Where is Export?&quot;
               </button>
               <button onClick={() => handleInteract('layers')} className="px-5 py-2.5 rounded-full bg-[#111] border border-white/10 text-white/80 hover:bg-white/10 hover:text-white transition-colors text-sm font-medium">
-                "Find the Layers"
+                &quot;Find the Layers&quot;
               </button>
               <button onClick={() => handleInteract('settings')} className="px-5 py-2.5 rounded-full bg-[#111] border border-white/10 text-white/80 hover:bg-white/10 hover:text-white transition-colors text-sm font-medium">
-                "Where are Settings?"
+                &quot;Where are Settings?&quot;
               </button>
             </div>
           </motion.div>

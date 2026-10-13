@@ -67,7 +67,7 @@ const features = [
     visual: (
       <div className="w-full aspect-video bg-[#111] rounded-2xl border border-white/10 flex items-center justify-center relative">
         <div className="bg-[#FF5A1F] text-black font-bold px-6 py-4 rounded-xl shadow-2xl z-10 relative">
-          "Click here to add a new layer."
+          &quot;Click here to add a new layer.&quot;
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-[#FF5A1F] rotate-45"></div>
         </div>
       </div>

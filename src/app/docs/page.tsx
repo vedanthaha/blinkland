@@ -23,9 +23,9 @@ export default function DocsPage() {
               
               <h2 className="text-2xl font-medium mb-4">Commands Reference</h2>
               <ul className="list-disc pl-5 text-white/60 space-y-2">
-                <li><strong>"Open..."</strong> - Launches applications installed on your system.</li>
-                <li><strong>"Search for..."</strong> - Opens a browser and executes a web search.</li>
-                <li><strong>"Extract data from..."</strong> - Reads tabular data from the screen and formats it.</li>
+                <li><strong>&quot;Open...&quot;</strong> - Launches applications installed on your system.</li>
+                <li><strong>&quot;Search for...&quot;</strong> - Opens a browser and executes a web search.</li>
+                <li><strong>&quot;Extract data from...&quot;</strong> - Reads tabular data from the screen and formats it.</li>
               </ul>
             </div>
           </div>

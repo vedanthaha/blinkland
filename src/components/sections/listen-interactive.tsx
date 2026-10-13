@@ -95,23 +95,28 @@ export function ListenInteractive() {
 
             {/* Waveform */}
             <div className="flex items-center justify-center gap-1.5 h-16 mb-8 z-10 w-full">
-              {[...Array(24)].map((_, i) => (
-                <motion.div
-                  key={i}
-                  animate={{
-                    height: status === 'listening' ? [8, Math.random() * 40 + 20, 8] : 4,
-                    opacity: status === 'listening' ? 1 : 0.2
-                  }}
-                  transition={{
-                    repeat: Infinity,
-                    repeatType: "reverse" as const,
-                    duration: status === 'listening' ? Math.random() * 0.3 + 0.2 : 0.5,
-                    ease: "easeInOut" as const,
-                    delay: Math.random() * 0.2
-                  }}
-                  className={`w-1.5 rounded-full ${status === 'listening' ? 'bg-[#FF5A1F]' : 'bg-white'}`}
-                />
-              ))}
+              {[...Array(24)].map((_, i) => {
+                const heightVariation = ((i * 13) % 36) + 16;
+                const duration = 0.25 + ((i * 7) % 5) * 0.05;
+                const delay = (i * 0.04) % 0.3;
+                return (
+                  <motion.div
+                    key={i}
+                    animate={{
+                      height: status === 'listening' ? [8, heightVariation, 8] : 4,
+                      opacity: status === 'listening' ? 1 : 0.2
+                    }}
+                    transition={{
+                      repeat: Infinity,
+                      repeatType: "reverse" as const,
+                      duration: status === 'listening' ? duration : 0.5,
+                      ease: "easeInOut" as const,
+                      delay: delay
+                    }}
+                    className={`w-1.5 rounded-full ${status === 'listening' ? 'bg-[#FF5A1F]' : 'bg-white'}`}
+                  />
+                );
+              })}
             </div>
 
             {/* Transcript & Status */}
